@@ -16,8 +16,7 @@ import {
   Typography,
   TextField,
   IconButton,
-  Link,
-  Paper
+  Link
 } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -450,18 +449,24 @@ const NumPadDemo = () => {
             <Grid container alignItems="center">
               <Grid item sm xs={12}>
                 <Typography variant="h5">About</Typography>
-                <Link href="https://github.com/gpietro/react-numpad">
+                <Link
+                  variant="body1"
+                  href="https://github.com/gpietro/react-numpad"
+                >
                   Github repo
                 </Link>
                 <br />
-                <Link href="https://github.com/gpietro/react-numpad">
+                <Link
+                  variant="body1"
+                  href="https://github.com/gpietro/react-numpad"
+                >
                   Contribute
                 </Link>
               </Grid>
 
               <Grid item sm xs={12}>
                 <Typography variant="h5">License</Typography>
-                <Typography variant="p">
+                <Typography variant="body1">
                   MIT Licensed. Copyright (c) Pietro Ghezzi 2019.
                 </Typography>
               </Grid>
