@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,UAAY,CACZ,kBACF,CAEA,oBACE,aACF","file":"main.3ec981be.chunk.css","sourcesContent":["body {\n  color: white;\n  background: #282c34;\n}\n\n.MuiTypography-root {\n  color: #282c34;\n}\n"]}
