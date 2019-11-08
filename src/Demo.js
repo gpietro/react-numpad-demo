@@ -224,7 +224,7 @@ const NumPadDemo = () => {
     <Grid container>
       <Grid item xs={12} style={{ textAlign: "center" }}>
         <img style={{ maxHeight: "150px" }} src={logo} alt="logo" />
-        <Typography variant="h4">{`React Numpad (v.${
+        <Typography variant="h4">{`React Numpad (v${
           packageJson.dependencies["react-numpad"]
         })`}</Typography>
         <GoLogoGithub

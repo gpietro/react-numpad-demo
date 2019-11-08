@@ -1,0 +1,12 @@
+body {
+  color: white;
+  background: #282c34;
+}
+
+.MuiTypography-root {
+  color: #282c34;
+}
+
+h4.MuiTypography-root {
+  color: white;
+}
