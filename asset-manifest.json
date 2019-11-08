@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-numpad-demo/static/css/main.3ec981be.chunk.css",
-    "main.js": "/react-numpad-demo/static/js/main.21a93952.chunk.js",
-    "main.js.map": "/react-numpad-demo/static/js/main.21a93952.chunk.js.map",
+    "main.css": "/react-numpad-demo/static/css/main.5f14c537.chunk.css",
+    "main.js": "/react-numpad-demo/static/js/main.2eebc81c.chunk.js",
+    "main.js.map": "/react-numpad-demo/static/js/main.2eebc81c.chunk.js.map",
     "runtime-main.js": "/react-numpad-demo/static/js/runtime-main.bc4eaa8f.js",
     "runtime-main.js.map": "/react-numpad-demo/static/js/runtime-main.bc4eaa8f.js.map",
     "static/css/2.8794b83f.chunk.css": "/react-numpad-demo/static/css/2.8794b83f.chunk.css",
     "static/js/2.f1d0c3fb.chunk.js": "/react-numpad-demo/static/js/2.f1d0c3fb.chunk.js",
     "static/js/2.f1d0c3fb.chunk.js.map": "/react-numpad-demo/static/js/2.f1d0c3fb.chunk.js.map",
     "index.html": "/react-numpad-demo/index.html",
-    "precache-manifest.36ee8c2b1cd44c1c2522df0a46c32ef2.js": "/react-numpad-demo/precache-manifest.36ee8c2b1cd44c1c2522df0a46c32ef2.js",
+    "precache-manifest.5f7178a87b42bef36e17e0ebadd13c9e.js": "/react-numpad-demo/precache-manifest.5f7178a87b42bef36e17e0ebadd13c9e.js",
     "service-worker.js": "/react-numpad-demo/service-worker.js",
     "static/css/2.8794b83f.chunk.css.map": "/react-numpad-demo/static/css/2.8794b83f.chunk.css.map",
-    "static/css/main.3ec981be.chunk.css.map": "/react-numpad-demo/static/css/main.3ec981be.chunk.css.map",
+    "static/css/main.5f14c537.chunk.css.map": "/react-numpad-demo/static/css/main.5f14c537.chunk.css.map",
     "static/media/index.css": "/react-numpad-demo/static/media/roboto-latin-900italic.ebf6d164.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.bc4eaa8f.js",
     "static/css/2.8794b83f.chunk.css",
     "static/js/2.f1d0c3fb.chunk.js",
-    "static/css/main.3ec981be.chunk.css",
-    "static/js/main.21a93952.chunk.js"
+    "static/css/main.5f14c537.chunk.css",
+    "static/js/main.2eebc81c.chunk.js"
   ]
 }
