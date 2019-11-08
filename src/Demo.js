@@ -219,7 +219,6 @@ const reducer = (state, action) => {
 
 const NumPadDemo = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  console.log("postivie", state);
   const classes = useStyles();
   return (
     <Grid container>
@@ -248,7 +247,18 @@ const NumPadDemo = () => {
                 >
                   <Grid container alignItems="center">
                     <Grid item xs>
-                      <TextField label="Any number" value={state.anyNumber} />
+                      <TextField
+                        label="Any number"
+                        value={state.anyNumber}
+                        InputProps={{
+                          readOnly: true
+                        }}
+                        InputLabelProps={{
+                          shrink: true
+                        }}
+                        variant="outlined"
+                        margin="normal"
+                      />
                     </Grid>
                     <Grid item xs>
                       <Button color="primary">Click me</Button>
@@ -269,6 +279,14 @@ const NumPadDemo = () => {
                   <TextField
                     label="Positive number"
                     value={state.positiveNumber}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
                   />
                 </NumPad.Number>
               </Grid>
@@ -284,6 +302,14 @@ const NumPadDemo = () => {
                   <TextField
                     label="Integer number"
                     value={state.integerNumber}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
                   />
                 </NumPad.Number>
               </Grid>
@@ -293,12 +319,21 @@ const NumPadDemo = () => {
                   onChange={value =>
                     dispatch({ type: "positiveInteger.number", value })
                   }
+                  position="flex-end"
                   decimal={false}
                   negative={false}
                 >
                   <TextField
                     label="PositiveInteger"
                     value={state.positiveIntegerNumber}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
                   />
                 </NumPad.Number>
               </Grid>
@@ -316,7 +351,18 @@ const NumPadDemo = () => {
                   dateFormat={"HH:mm"}
                   placeholder={"--:--"}
                 >
-                  <TextField label="Time" value={state.anyTime} />
+                  <TextField
+                    label="Time"
+                    value={state.anyTime}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
+                  />
                   <IconButton>
                     <IconAccessTime />
                   </IconButton>
@@ -329,7 +375,18 @@ const NumPadDemo = () => {
                   dateFormat={"DD.MM.YYYY"}
                   placeholder={"DD.MM.YYYY"}
                 >
-                  <TextField label="Date DD.MM.YYYY" value={state.anyDate} />
+                  <TextField
+                    label="Date DD.MM.YYYY"
+                    value={state.anyDate}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
+                  />
                   <IconButton>
                     <IconCalendarToday />
                   </IconButton>
@@ -341,7 +398,18 @@ const NumPadDemo = () => {
                   onChange={value => dispatch({ type: "time.date", value })}
                   dateFormat={"YYYY-MM-DD HH:mm"}
                 >
-                  <TextField label="DD.MM.YYYY HH:mm" value={state.timeDate} />
+                  <TextField
+                    label="DD.MM.YYYY HH:mm"
+                    value={state.timeDate}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
+                  />
                   <IconButton>
                     <IconCalendarToday />
                   </IconButton>
@@ -365,6 +433,14 @@ const NumPadDemo = () => {
                   <TextField
                     label="Calendario italiano"
                     value={state.italianCalendar}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
                   />
                 </NumPad.Calendar>
               </Grid>
@@ -378,6 +454,14 @@ const NumPadDemo = () => {
                   <TextField
                     label="Default calendar"
                     value={state.defaultCalendar}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
                   />
                 </NumPad.Calendar>
               </Grid>
@@ -398,7 +482,18 @@ const NumPadDemo = () => {
                   ]}
                   position="startTopLeft"
                 >
-                  <TextField label="markers" value={state.markersCalendar} />
+                  <TextField
+                    label="markers"
+                    value={state.markersCalendar}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
+                  />
                 </NumPad.Calendar>
               </Grid>
             </Grid>
@@ -422,6 +517,11 @@ const NumPadDemo = () => {
                   <TextField
                     label="Appuntamento"
                     value={state.anyAppointment}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
                   />
                 </NumPad.Appointment>
               </Grid>
@@ -437,6 +537,14 @@ const NumPadDemo = () => {
                   <TextField
                     label="Fullscreen"
                     value={state.fullscreenAppointment}
+                    InputProps={{
+                      readOnly: true
+                    }}
+                    InputLabelProps={{
+                      shrink: true
+                    }}
+                    variant="outlined"
+                    margin="normal"
                   />
                 </NumPad.Appointment>
               </Grid>
