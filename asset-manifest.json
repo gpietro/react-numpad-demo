@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.js": "/react-numpad-demo/static/js/main.7aebd9fe.chunk.js",
-    "main.js.map": "/react-numpad-demo/static/js/main.7aebd9fe.chunk.js.map",
-    "runtime~main.js": "/react-numpad-demo/static/js/runtime~main.909cd627.js",
-    "runtime~main.js.map": "/react-numpad-demo/static/js/runtime~main.909cd627.js.map",
-    "static/css/2.780386e2.chunk.css": "/react-numpad-demo/static/css/2.780386e2.chunk.css",
-    "static/js/2.26afc964.chunk.js": "/react-numpad-demo/static/js/2.26afc964.chunk.js",
-    "static/js/2.26afc964.chunk.js.map": "/react-numpad-demo/static/js/2.26afc964.chunk.js.map",
+    "main.js": "/react-numpad-demo/static/js/main.19f060f5.chunk.js",
+    "main.js.map": "/react-numpad-demo/static/js/main.19f060f5.chunk.js.map",
+    "runtime-main.js": "/react-numpad-demo/static/js/runtime-main.bc4eaa8f.js",
+    "runtime-main.js.map": "/react-numpad-demo/static/js/runtime-main.bc4eaa8f.js.map",
+    "static/css/2.8794b83f.chunk.css": "/react-numpad-demo/static/css/2.8794b83f.chunk.css",
+    "static/js/2.2962bf20.chunk.js": "/react-numpad-demo/static/js/2.2962bf20.chunk.js",
+    "static/js/2.2962bf20.chunk.js.map": "/react-numpad-demo/static/js/2.2962bf20.chunk.js.map",
     "index.html": "/react-numpad-demo/index.html",
-    "precache-manifest.ba5bd7c302f8c52c50dff02e4313c265.js": "/react-numpad-demo/precache-manifest.ba5bd7c302f8c52c50dff02e4313c265.js",
+    "precache-manifest.a346a619610257a1fa7341971051cf83.js": "/react-numpad-demo/precache-manifest.a346a619610257a1fa7341971051cf83.js",
     "service-worker.js": "/react-numpad-demo/service-worker.js",
-    "static/css/2.780386e2.chunk.css.map": "/react-numpad-demo/static/css/2.780386e2.chunk.css.map",
-    "static/media/index.css": "/react-numpad-demo/static/media/roboto-latin-900italic.bc833e72.woff"
-  }
+    "static/css/2.8794b83f.chunk.css.map": "/react-numpad-demo/static/css/2.8794b83f.chunk.css.map",
+    "static/media/index.css": "/react-numpad-demo/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc4eaa8f.js",
+    "static/css/2.8794b83f.chunk.css",
+    "static/js/2.2962bf20.chunk.js",
+    "static/js/main.19f060f5.chunk.js"
+  ]
 }
