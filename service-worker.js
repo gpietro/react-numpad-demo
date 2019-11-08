@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-numpad-demo/precache-manifest.5f7178a87b42bef36e17e0ebadd13c9e.js"
+  "/react-numpad-demo/precache-manifest.96e26d8980f14faac6afc9292415ae7c.js"
 );
 
 self.addEventListener('message', (event) => {
